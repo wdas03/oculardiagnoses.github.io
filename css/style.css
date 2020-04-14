@@ -145,7 +145,7 @@ i:before {
 }
 
 .l_title {
-  padding-bottom: 55px;
+  padding-bottom: 20px;
 }
 
 .l_title img {
@@ -779,7 +779,7 @@ i:before {
 }
 
 .challange_text_inner {
-  max-width: 545px;
+  max-width: 40vw;
   float: right;
 }
 
@@ -818,6 +818,13 @@ i:before {
   align-self: center;
   -webkit-box-shadow: 0px 27px 68px 0px rgba(0, 0, 0, 0.4);
   box-shadow: 0px 27px 68px 0px rgba(0, 0, 0, 0.4);
+}
+
+.challange_img .challange_img_inner img {
+  width: 50vw;
+  height: 45vw;
+  border: 3px solid white;
+  border-radius: 5px;
 }
 
 /* End Challange Area css
