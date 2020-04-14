@@ -25,6 +25,8 @@
         <link href="css/style.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
 
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/6da8f9cd24.js" crossorigin="anonymous"></script>
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -37,7 +39,7 @@
         <!--================Header Menu Area =================-->
         <header class="main_menu_area">
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Ocular</a>
+                <a class="navbar-brand" href="/"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span></span>
                     <span></span>
@@ -107,7 +109,7 @@
                                 data-type="text" 
                                 data-responsive_offset="on" 
                                 data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]">
-                                <a class="more_btn" href="#">Discover</a>
+                                <a class="more_btn" data-scroll-nav="0">Discover</a>
                             </div>
                             <div class="tp-caption tp-resizeme single_img" 
                             data-x="['right','right','right','right','right','right']" 
@@ -269,11 +271,11 @@
         <!--================End Slider Area =================-->
         
         <!--================Feature Area =================-->
-        <section class="feature_area">
+        <section data-scroll-index="0" class="feature_area">
             <div class="container">
                 <div class="c_title">
                     <img src="img/icon/title-icon.png" alt="">
-                    <h6>Discover the features</h6>
+                    <h6>Our Revolutionary Method</h6>
                     <h2>Diagnosing ADHD on a New Level</h2>
                 </div>
                 <div class="row feature_inner">
@@ -282,8 +284,10 @@
                             <div class="f_icon">
                                 <img src="img/icon/f-icon-1.png" alt="">
                             </div>
-                            <h4>Brand Identity</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
+                            <h4>Increased Accuracy</h4>
+                            <p>
+                                
+                            </p>
                             <a class="more_btn" href="#">Read More</a>
                         </div>
                     </div>
@@ -292,18 +296,23 @@
                             <div class="f_icon">
                                 <img src="img/icon/f-icon-2.png" alt="">
                             </div>
-                            <h4>Online Marketing</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
+                            <h4>Increased Efficiency</h4>
+                            <p>
+
+                            </p>
                             <a class="more_btn" href="#">Read More</a>
                         </div>
                     </div>
                     <div class="col-lg-4 col-sm-6">
                         <div class="feature_item">
                             <div class="f_icon">
-                                <img src="img/icon/f-icon-3.png" alt="">
+                                <!--<img src="img/icon/f-icon-3.png" alt="">-->
+                                <i class="fas fa-universal-access"></i>
                             </div>
-                            <h4>Social Media</h4>
-                            <p>Etiam nec odio vestibulum est mattis effic iturut magna. Pellentesque sit am et tellus blandit. Etiam nec odio vestibul. </p>
+                            <h4>Increased Accessibility</h4>
+                            <p>
+
+                            </p>
                             <a class="more_btn" href="#">Read More</a>
                         </div>
                     </div>
@@ -563,7 +572,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
         <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
         <script src="vendors/magnify-popup/jquery.magnific-popup.min.js"></script>
         <script src="js/smoothscroll.js"></script>
+        <script src="js/scrollIt.js"></script>
         
         <script src="js/theme.js"></script>
+
+        <script>
+            $.scrollIt();
+        </script>
     </body>
 </html>
