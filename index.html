@@ -88,7 +88,7 @@
 								<img src="images/logo/logo5.png" class="img-fluid" style="height: 150px; width: 200px;">
 								<h2>DIAGNOSE ADHD SMARTER</h2>
 								<p>OCULAR DIAGNOSES</p>
-								<p><a href="#email" class="btn btn-primary btn-lg btn-custom">Join Our Beta List</a></p>
+								<p><a href="" data-scroll-nav="0" class="btn btn-primary btn-lg btn-custom">Join Our Beta List</a></p>
 							</div>
 						</div>
 					</div>
@@ -345,7 +345,7 @@
 
 		
 
-		<div id="colorlib-subscribe" class="colorlib-subscribe" style="background-image: url(images/cover_img_1.jpg);" data-stellar-background-ratio="0.5">
+		<div data-scroll-index="0" id="colorlib-subscribe" class="colorlib-subscribe" style="background-image: url(images/cover_img_1.jpg);" data-stellar-background-ratio="0.5">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row">
@@ -476,10 +476,21 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 	<script src="js/jquery.countTo.js"></script>
 	<script src="js/particles.js/particles2.min.js"></script>
 
+	<script src="js/scrollIt.js"></script>
+
 	<script>
 		particlesJS.load('particles', 'js/circle_particles.json', function() {
 			console.log('callback - particles.js config loaded');
 		}); 
+
+		$.scrollIt({
+			upKey: 38,             // key code to navigate to the next section
+			downKey: 40,           // key code to navigate to the previous section
+			easing: 'linear',      // the easing function for animation
+			scrollTime: 1000,       // how long (in ms) the animation takes
+			activeClass: 'active', // class given to the active nav element
+			onPageChange: null,
+		});
 	</script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
