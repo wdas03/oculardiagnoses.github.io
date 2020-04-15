@@ -240,7 +240,7 @@
 		   loop: true,
 		   margin: 0,
 		   responsiveClass: true,
-		   nav: false,
+		   nav: true,
 		   dots: true,
 		   autoplayHoverPause: true,
 		   smartSpeed: 500,
