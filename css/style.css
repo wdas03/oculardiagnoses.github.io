@@ -285,6 +285,8 @@ h1, h2, h3, h4, h5, h6, figure {
     right: 0;
     opacity: 0.6;
     background: #499bea;
+    /*background: #003a69;*/
+    
     background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
     background: -webkit-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
@@ -389,6 +391,7 @@ h1, h2, h3, h4, h5, h6, figure {
     .services .icon i {
       font-size: 50px;
       color: #798eea;
+      color: #025aa1;
       z-index: 1; }
   .services .desc h3 {
     font-size: 26px;
