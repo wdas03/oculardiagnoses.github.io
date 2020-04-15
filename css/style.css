@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .services-img,
 .staff-img {
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   background-repeat: no-repeat;
   position: relative; }
 
@@ -283,7 +283,7 @@ h1, h2, h3, h4, h5, h6, figure {
     bottom: 0;
     left: 0;
     right: 0;
-    opacity: 0.95;
+    opacity: 0.6;
     background: #499bea;
     background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
