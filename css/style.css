@@ -714,6 +714,8 @@ h1, h2, h3, h4, h5, h6, figure {
     left: 0;
     right: 0;
     background: #499bea;
+    background: #013b69;
+    /*
     background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
     background: -webkit-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
@@ -721,9 +723,9 @@ h1, h2, h3, h4, h5, h6, figure {
     background: -ms-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-linear-gradient(315deg, #499bea 0%, #798eea 100%);
     background: -o-linear-gradient(315deg, #499bea 0%, #798eea 100%);
-    background: linear-gradient(135deg, #499bea 0%, #798eea 100%);
+    background: linear-gradient(135deg, #499bea 0%, #798eea 100%);*/
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#798eea', GradientType=1 );
-    opacity: .96; }
+    opacity: .9; }
   .colorlib-counters .icon {
     margin-bottom: 20px;
     width: 100px;
@@ -830,6 +832,8 @@ article {
     left: 0;
     right: 0;
     background: #499bea;
+    background: #013b69;
+    /*
     background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
     background: -webkit-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
@@ -837,9 +841,9 @@ article {
     background: -ms-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-linear-gradient(315deg, #499bea 0%, #798eea 100%);
     background: -o-linear-gradient(315deg, #499bea 0%, #798eea 100%);
-    background: linear-gradient(135deg, #499bea 0%, #798eea 100%);
+    background: linear-gradient(135deg, #499bea 0%, #798eea 100%);*/
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#798eea', GradientType=1 );
-    opacity: .96; }
+    opacity: .9; }
   .colorlib-subscribe .colorlib-heading {
     margin-bottom: 30px; }
     .colorlib-subscribe .colorlib-heading h2 {
