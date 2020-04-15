@@ -1,1 +1,0 @@
-# Ocular | Revolutionizing ADHD Diagnosis
