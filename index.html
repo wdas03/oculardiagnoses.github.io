@@ -361,7 +361,7 @@
 					<div class="col-md-6 col-md-offset-3">
 						<div class="row">
 							<div class="col-md-12">
-							<form class="form-inline qbstp-header-subscribe">
+							<div class="form-inline qbstp-header-subscribe">
 								<div class="col-three-forth">
 									<div class="form-group">
 										<input type="text" class="form-control" id="email" placeholder="Enter your email">
@@ -369,10 +369,10 @@
 								</div>
 								<div class="col-one-third">
 									<div class="form-group">
-										<button type="submit" class="btn btn-primary">JOIN</button>
+										<button id="joinEmailButton" type="submit" class="btn btn-primary">JOIN</button>
 									</div>
 								</div>
-							</form>
+							</div>
 							</div>
 						</div>
 					</div>
@@ -469,26 +469,46 @@
 	<!-- Firebase -->
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
 
 	<!-- TODO: Add SDKs for Firebase products that you want to use
 		https://firebase.google.com/docs/web/setup#available-libraries -->
 	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
 
 	<script>
-	// Your web app's Firebase configuration
-	var firebaseConfig = {
-		apiKey: "AIzaSyBwZb5OcYnRR5AP2nXpIqJ3E58bDh3KP90",
-		authDomain: "ocular-diagnoses.firebaseapp.com",
-		databaseURL: "https://ocular-diagnoses.firebaseio.com",
-		projectId: "ocular-diagnoses",
-		storageBucket: "ocular-diagnoses.appspot.com",
-		messagingSenderId: "145831909628",
-		appId: "1:145831909628:web:c2c4c499190cd0863f1f79",
-		measurementId: "G-PS3QJCZEXC"
-	};
-	// Initialize Firebase
-	firebase.initializeApp(firebaseConfig);
-	firebase.analytics();
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyBwZb5OcYnRR5AP2nXpIqJ3E58bDh3KP90",
+			authDomain: "ocular-diagnoses.firebaseapp.com",
+			databaseURL: "https://ocular-diagnoses.firebaseio.com",
+			projectId: "ocular-diagnoses",
+			storageBucket: "ocular-diagnoses.appspot.com",
+			messagingSenderId: "145831909628",
+			appId: "1:145831909628:web:c2c4c499190cd0863f1f79",
+			measurementId: "G-PS3QJCZEXC"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+
+		function addEmail(email) {
+			firebase.firestore().collection("users").add({
+				email: email
+			})
+			.then(function(docRef) {
+				console.log("Document written with ID: ", docRef.id);
+			})
+			.catch(function(error) {
+				console.error("Error adding document: ", error);
+			});
+		}
+
+		$("#joinEmailButton").click(function() {
+			var emailField = $("#email");
+			var email = $.trim(emailField.val());
+			console.log($.trim(emailField.val()));
+			addEmail(email);
+		});	
 	</script>
 
 	<script>
