@@ -336,6 +336,32 @@
 	<script src="js/magnific-popup-options.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
+
+	<!-- Firebase -->
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-firestore.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+		https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.14.0/firebase-analytics.js"></script>
+
+	<script>
+		// Your web app's Firebase configuration
+		var firebaseConfig = {
+			apiKey: "AIzaSyBwZb5OcYnRR5AP2nXpIqJ3E58bDh3KP90",
+			authDomain: "ocular-diagnoses.firebaseapp.com",
+			databaseURL: "https://ocular-diagnoses.firebaseio.com",
+			projectId: "ocular-diagnoses",
+			storageBucket: "ocular-diagnoses.appspot.com",
+			messagingSenderId: "145831909628",
+			appId: "1:145831909628:web:c2c4c499190cd0863f1f79",
+			measurementId: "G-PS3QJCZEXC"
+		};
+		// Initialize Firebase
+		firebase.initializeApp(firebaseConfig);
+		firebase.analytics();
+	</script>
 	<!-- Main -->
 	<script src="js/main.js"></script>
 
