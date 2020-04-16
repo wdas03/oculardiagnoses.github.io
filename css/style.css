@@ -288,7 +288,7 @@ h1, h2, h3, h4, h5, h6, figure {
     -o-transform: scale(1.1);
     transform: scale(1.1); }
 
-#home .overlay {
+#howItWorksFirstSection .overlay {
   opacity: 0.2;
   background: rgb(0, 44, 70);
 }
