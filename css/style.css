@@ -18,6 +18,26 @@ body {
   color: gray;
   background: whitesmoke; }
 
+.colorlib-intro {
+  background: #013b69; 
+  color: white;
+  z-index: 98;
+  position: relative;
+}
+
+.colorlib-intro .row h2 {
+  color: white;
+}
+
+#particles {
+  z-index: -1000;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+}
+
 #page {
   position: relative;
   overflow-x: hidden;
@@ -269,7 +289,7 @@ h1, h2, h3, h4, h5, h6, figure {
     transform: scale(1.1); }
 
 #home .overlay {
-  opacity: 0.5;
+  opacity: 0.2;
   background: rgb(0, 44, 70);
 }
 
