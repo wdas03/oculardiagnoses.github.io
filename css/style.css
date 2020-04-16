@@ -268,6 +268,11 @@ h1, h2, h3, h4, h5, h6, figure {
     -o-transform: scale(1.1);
     transform: scale(1.1); }
 
+#home .overlay {
+  opacity: 0.5;
+  background: rgb(0, 44, 70);
+}
+
 .video-hero {
   background-size: cover;
   position: relative;
@@ -286,7 +291,7 @@ h1, h2, h3, h4, h5, h6, figure {
     opacity: 0.6;
     background: #499bea;
     /*background: #005296;*/
-    /*
+    
     background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
     background: -webkit-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
@@ -294,7 +299,7 @@ h1, h2, h3, h4, h5, h6, figure {
     background: -ms-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-linear-gradient(315deg, #499bea 0%, #798eea 100%);
     background: -o-linear-gradient(315deg, #499bea 0%, #798eea 100%);
-    background: linear-gradient(135deg, #499bea 0%, #798eea 100%);*/
+    background: linear-gradient(135deg, #499bea 0%, #798eea 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#798eea', GradientType=1 );
     z-index: 1; }
   .video-hero .display-t {
@@ -395,7 +400,8 @@ h1, h2, h3, h4, h5, h6, figure {
       z-index: 1; }
   .services .desc h3 {
     font-size: 26px;
-    font-weight: 300; }
+    font-weight: 300;
+  color: black; }
 
 .colorlib-intro .colorlib-heading {
   margin-bottom: 2em; }
