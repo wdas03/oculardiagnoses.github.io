@@ -311,6 +311,7 @@ h1, h2, h3, h4, h5, h6, figure {
     opacity: 0.95;
     background: #499bea;
     background: #003e5a;
+    background: #093f63;
     /*
     background: -moz-linear-gradient(-45deg, #499bea 0%, #798eea 100%);
     background: -webkit-gradient(left top, right bottom, color-stop(0%, #499bea), color-stop(100%, #798eea));
@@ -391,7 +392,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-bottom: 3em;
   width: 100%; }
   .colorlib-featured .featured-wrap {
-    margin-top: -5em; }
+    margin-top: -7em; }
   .colorlib-featured .featured-entry img {
     -webkit-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
