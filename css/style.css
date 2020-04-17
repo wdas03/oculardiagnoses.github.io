@@ -396,7 +396,8 @@ h1, h2, h3, h4, h5, h6, figure {
     -webkit-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
     box-shadow: 0px 3px 19px -9px rgba(0, 0, 0, 0.75);
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    height: 80vh; }
   .colorlib-featured .owl-theme .owl-dots .owl-dot span {
     background: #e6e6e6; }
   .colorlib-featured .owl-theme .owl-dots .owl-dot.active span {
