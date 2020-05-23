@@ -1,1 +1,1 @@
-Sitemap: http://www.oculardiagnoses.com/sitemap.xml
+Sitemap: https://www.oculardiagnoses.com/sitemap.xml
