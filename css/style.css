@@ -432,11 +432,11 @@ h1, h2, h3, h4, h5, h6, figure {
 .colorlib-intro .colorlib-heading {
   margin-bottom: 2em; }
 
-.colorlib-intro .play {
+.play {
   width: 100%;
   display: block;
   margin: 30px 0; }
-  .colorlib-intro .play a {
+   .play a {
     width: 100px;
     height: 100px;
     display: table;
@@ -447,7 +447,7 @@ h1, h2, h3, h4, h5, h6, figure {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
-    .colorlib-intro .play a i {
+    .play a i {
       font-size: 20px;
       color: #fff;
       display: table-cell;
